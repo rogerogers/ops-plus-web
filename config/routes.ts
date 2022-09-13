@@ -1,4 +1,6 @@
-﻿export default [
+﻿import repository from './route/repository';
+
+export default [
   {
     path: '/user',
     layout: false,
@@ -36,6 +38,7 @@
       },
     ],
   },
+  repository,
   {
     name: 'list.table-list',
     icon: 'table',
