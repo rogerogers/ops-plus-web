@@ -50,4 +50,5 @@ export default {
   'menu.editor.mind': '脑图编辑器',
   'menu.editor.koni': '拓扑编辑器',
   'menu.repositories': '代码仓库',
+  'menu.application': 'Application',
 };

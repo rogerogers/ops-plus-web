@@ -1,4 +1,5 @@
 ﻿import repository from './route/repository';
+import application from './route/application';
 
 export default [
   {
@@ -39,6 +40,7 @@ export default [
     ],
   },
   repository,
+  application,
   {
     name: 'list.table-list',
     icon: 'table',
