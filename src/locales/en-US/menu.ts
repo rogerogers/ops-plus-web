@@ -51,4 +51,6 @@ export default {
   'menu.editor.koni': 'Koni Editor',
   'menu.repositories': 'Repositories',
   'menu.application': 'Application',
+  'menu.application.list': 'list',
+  'menu.application.config': 'config',
 };

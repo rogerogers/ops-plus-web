@@ -51,4 +51,6 @@ export default {
   'menu.editor.koni': '拓扑编辑器',
   'menu.repositories': '代码仓库',
   'menu.application': 'Application',
+  'menu.application.list': 'list',
+  'menu.application.config': 'config',
 };
