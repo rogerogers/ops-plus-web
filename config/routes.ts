@@ -1,4 +1,4 @@
-﻿import repository from './route/repository';
+import repository from './route/repository';
 import application from './route/application';
 
 export default [
@@ -50,6 +50,11 @@ export default [
   {
     path: '/',
     redirect: '/welcome',
+  },
+  {
+    name: 'child',
+    path: '/child/*',
+    microApp: 'child',
   },
   {
     component: './404',
