@@ -55,6 +55,9 @@ export default [
     name: 'child',
     path: '/child/*',
     microApp: 'child',
+    microAppProps: {
+      base: 'child',
+    },
   },
   {
     component: './404',
