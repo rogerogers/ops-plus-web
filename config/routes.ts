@@ -53,6 +53,7 @@ export default [
   },
   {
     name: 'gocron',
+    icon: 'ClockCircleOutlined',
     path: '/gocron/*',
     microApp: 'gocron',
     microAppProps: {
