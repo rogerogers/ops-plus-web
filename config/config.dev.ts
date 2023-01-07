@@ -7,7 +7,7 @@ export default defineConfig({
       // 注册子应用信息
       apps: [
         {
-          name: 'child', // 唯一 id
+          name: 'gocron', // 唯一 id
           entry: '//localhost:8001', // html entry
         },
       ],

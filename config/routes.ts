@@ -52,11 +52,11 @@ export default [
     redirect: '/welcome',
   },
   {
-    name: 'child',
-    path: '/child/*',
-    microApp: 'child',
+    name: 'gocron',
+    path: '/gocron/*',
+    microApp: 'gocron',
     microAppProps: {
-      base: 'child',
+      base: 'gocron',
     },
   },
   {

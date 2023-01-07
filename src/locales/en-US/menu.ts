@@ -53,5 +53,5 @@ export default {
   'menu.application': 'Application',
   'menu.application.list': 'list',
   'menu.application.config': 'config',
-  'menu.child': 'child',
+  'menu.gocron': 'gocron',
 };
